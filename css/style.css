@@ -148,6 +148,7 @@ img {
   color: black;
   font-weight: bold;
   display: none;
+  padding-left: 5px;
 }
 
 /* banner */
@@ -268,6 +269,7 @@ footer {
   .footpresent img {
     float: left;
     margin-right: 10px;
+    width: 40%;
   }
 
   .footpresent p {
@@ -276,4 +278,58 @@ footer {
 }
 
 @media screen and (min-width: 992px) {
+  h2 {
+    font-size: 3rem;
+  }
+
+  .container .card {
+    display: flex;
+  }
+
+  .card .topcard {
+    width: 70%;
+  }
+
+  .bottomcard ul {
+    display: block;
+  }
+
+  .bottomcard li {
+    width: 100%;
+  }
+
+  /* icon */
+  .icontext {
+    color: black;
+    font-weight: bold;
+    display: block;
+  }
+
+  .footpresent img {
+    width: 30%;
+  }
+
+  /* footer */
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+  }
+
+  .footleft {
+    text-align: start;
+  }
+  .footright {
+    text-align: end;
+    align-content: center;
+  }
+
+  .footright li {
+    display: inline;
+  }
+
+  .footleft * {
+    padding-bottom: 10px;
+  }
 }
