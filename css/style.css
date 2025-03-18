@@ -225,13 +225,14 @@ footer {
   }
   /* header */
   /* body top */
-
+  h2 {
+    font-size: 2rem;
+  }
   .parentesi {
     display: inline-block;
   }
 
-  .titletop,
-  p {
+  .titletop {
     font-size: 2rem;
   }
 
@@ -272,4 +273,7 @@ footer {
   .footpresent p {
     font-size: 1rem;
   }
+}
+
+@media screen and (min-width: 992px) {
 }
