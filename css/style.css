@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+
   padding: 0;
   margin: 0;
 }
@@ -24,10 +24,25 @@ ul {
   padding-right: 10px;
 }
 
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <wight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.nerko-one-regular {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* body */
 
 body {
   background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* header */
@@ -36,16 +51,58 @@ header {
   background-color: white;
   text-align: center;
   padding: 1rem;
-  color: darkgoldenrod;
+  color: #ff9614;
 }
 
 h1 {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
 }
 
 /* main */
 
+/* title top */
+
+.titletop * {
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+
+.titletop p {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.titletop h2 span {
+  display: none;
+}
+
 /* card */
+
+#video .card {
+  background-color: white;
+  box-shadow: 5px solid rgb(1, 1, 1);
+}
 
 img {
   width: 100%;
+}
+
+.bottomcard {
+  padding: 1.5rem;
+}
+
+.bottomcard h4 {
+  padding-bottom: 1.5rem;
+}
+
+.bottomcard li {
+  padding-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.maiusc {
+  font-weight: bold;
 }
