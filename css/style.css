@@ -207,7 +207,22 @@ footer {
 .footleft * {
   padding-bottom: 10px;
 }
+/* large mobile */
 
+@media screen and (min-width: 576px) {
+  /* icon */
+
+  #icon .card {
+    padding: 9px 40px;
+  }
+
+  /* presentation */
+  .footpresent img {
+    float: left;
+    margin-right: 10px;
+    width: 40%;
+  }
+}
 /* tablet */
 
 @media screen and (min-width: 768px) {
