@@ -121,6 +121,7 @@ img {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 0.8rem;
+  display: inline-block;
 }
 
 .card.facebook {
@@ -138,3 +139,17 @@ img {
 .card.youtube {
   color: #e62222;
 }
+
+.icontext {
+  color: black;
+  font-weight: bold;
+  display: none;
+}
+
+/* banner */
+
+#banner img {
+  display: none;
+}
+
+/* presentation */
