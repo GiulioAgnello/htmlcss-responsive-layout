@@ -23,3 +23,29 @@ ul {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+/* body */
+
+body {
+  background-color: lightgray;
+}
+
+/* header */
+
+header {
+  background-color: white;
+  text-align: center;
+  padding: 1rem;
+  color: darkgoldenrod;
+}
+
+h1 {
+}
+
+/* main */
+
+/* card */
+
+img {
+  width: 100%;
+}
