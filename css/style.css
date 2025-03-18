@@ -77,7 +77,7 @@ h1 {
   font-size: 0.8rem;
 }
 
-.titletop h2 span {
+.parentesi {
   display: none;
 }
 
@@ -120,11 +120,12 @@ img {
 #icon .card {
   background-color: white;
   border-radius: 20px;
-  padding: 5px 10px;
+  padding: 9px 13px;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 0.8rem;
-  display: inline-block;
+
+  box-shadow: 0px 3px 17px 0px lightgray;
 }
 
 .card.facebook {
@@ -204,4 +205,71 @@ footer {
 
 .footleft * {
   padding-bottom: 10px;
+}
+
+/* tablet */
+
+@media screen and (min-width: 768px) {
+  main {
+    padding: 0px 35px;
+  }
+
+  /* header */
+
+  header {
+    text-align: start;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  /* header */
+  /* body top */
+
+  .parentesi {
+    display: inline-block;
+  }
+
+  .titletop,
+  p {
+    font-size: 2rem;
+  }
+
+  /* card */
+
+  .bottomcard ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .bottomcard li {
+    width: 30%;
+  }
+
+  /* icon */
+
+  #icon .card {
+    padding: 9px 50px;
+  }
+
+  /* banner */
+
+  #banner img {
+    display: block;
+  }
+
+  /* presentation */
+
+  .footpresent {
+    padding-top: 10px;
+  }
+
+  .footpresent img {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .footpresent p {
+    font-size: 1rem;
+  }
 }
