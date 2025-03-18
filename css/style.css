@@ -150,6 +150,18 @@ img {
 
 #banner img {
   display: none;
+  margin-bottom: 30px;
 }
 
 /* presentation */
+
+.linietta {
+  border: 1px solid #f7972e;
+  width: 50px;
+  margin: 10px 0px;
+}
+
+.footpresent img {
+  width: 50%;
+  align-content: center;
+}
