@@ -6,7 +6,7 @@
 }
 
 a {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: white;
 }
 
@@ -164,4 +164,25 @@ img {
 .footpresent img {
   width: 50%;
   align-content: center;
+}
+
+/* foot */
+
+footer {
+  background-color: #7c69a4;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.footleft {
+  text-align: center;
+}
+.footright {
+  text-align: center;
+}
+
+.footright li {
+  display: inline;
+  padding: 10px;
+  font-variant: ;
 }
